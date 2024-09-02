@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("This is an inline Javascript")
+    </script>
+</head>
+<body>
+    <div>
+        <button onclick="darkMode()" id="DM">Dark Mode</button>
+    </div>
+
+<!-- Parameterized functions - functions that have parameters -->
+<input type="text" id="userInput">
+<button onclick="myFunction(document.getElementById('userInput').value)">Click Button</button>
+
+
+<div id="displayNumber">0</div>
+<button onclick="showNumber(1)">1</button>
+<button onclick="showNumber(2)">2</button>
+<button onclick="showNumber(3)">3</button>
+<button onclick="showNumber(4)">4</button>
+<button onclick="showNumber(5)">5</button>
+<button onclick="showNumber(6)">6</button>
+<button onclick="showNumber(7)">7</button>
+<button onclick="showNumber(8)">8</button>
+<button onclick="showNumber(9)">9</button>
+<button onclick="showNumber(0)">0</button>
+<button onclick="showNumber('.')">.</button>
+<button onclick="showNumber('+')">+</button>
+
+<button onclick="calculate()">=</button>
+
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
